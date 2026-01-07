@@ -1,16 +1,41 @@
-# React + Vite
+## INNER LOOP (Prototype)
+Habits → Focus → Reflection → Growth
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimalist habit-tracking dashboard built to experiment with React state, Tailwind CSS dark mode, and Uiverse component integration.
 
-Currently, two official plugins are available:
+### Current Status: WIP
+This is currently a static prototype. I am using this to test:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Dynamic theme switching (Dark/Light).
+- Glassmorphism UI layouts.
+- Custom CSS animations for buttons and navigation.
 
-## React Compiler
+#### How to View the Project
+To see the dashboard in action on your local machine:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Clone & Enter:
+```bash
+git clone [your-link-here]
+cd inner-loop
+```
+Install:
+```bash
+npm install
+```
+Run:
+```bash
+npm run dev
+```
+Open: Click the local link in your terminal (usually http://localhost:5173) to view the app in your browser.
 
-## Expanding the ESLint configuration
+### Tech Used
+React (Vite)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tailwind CSS (Theming)
+
+Uiverse.io (UI Components)
+
+### Future Roadmap
+1. Add "Add Habit" functionality.
+2. Connect to LocalStorage to save progress.
+3. Implement a Pomodoro focus timer.
